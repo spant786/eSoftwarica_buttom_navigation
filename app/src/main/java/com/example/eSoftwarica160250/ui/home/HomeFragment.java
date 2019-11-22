@@ -30,6 +30,7 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
 
+
         final TextView textView = root.findViewById(R.id.text_home);
         studentsview = root.findViewById(R.id.recycle);
         homeViewModel.getText().observe(this, new Observer<String>() {
